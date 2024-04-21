@@ -1,0 +1,66 @@
+html, body, h3 {
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+  }
+
+.meu_estilo{
+    background-color: blueviolet;
+    display: inline-flex;
+}
+
+.navbar {
+    width: 100vw; 
+    height: 5vh; 
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.navbar-textos {
+    background-color: #ffffff;
+    padding-top: 1vh;
+    font-size: 140%;
+}
+
+.tela1{
+    width: 100vw; 
+    height: 100vh; 
+    background-color: #adf2fc;
+    padding: 5%;
+    display: inline-flex
+}
+
+.texto{
+    padding-left: 2vw;
+    width: 40vw;
+    text-align: left;
+}
+
+.tela1 img{
+    margin-top: 0;
+    object-fit: cover;
+    width: 50%;
+    height: 80%;
+}
+
+.tela2{
+    width: 100vw; 
+    height: 50vh; 
+    background-color: #ffd17d;
+}
+
+.tela3{
+    width: 100vw; 
+    height: 51vh; 
+    background-color: #9cff83;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+    height: 2%;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(230, 230, 230);    
+    border-radius: 5px;       
+  }
