@@ -1,39 +1,57 @@
-html, body, h3 {
+html, body, h1, h2, h3 {
     margin: 0;
     padding: 0;
     font-family: montserrat;
   }
 
-.meu_estilo{
-    background-color: blueviolet;
-    display: inline-flex;
-}
+  .container {
+    width: 100vw; 
+    max-width: 100%; 
+  }
 
 .navbar {
     width: 100vw; 
     height: 5vh; 
-    background-color: #ffffff;
-    display: inline-block;
+    display: inline-flex;
+    background-color: #0E1922;
+    font-size: 180%;  
+    font-family: montserrat;
+    color: #ffffff;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
 }
 
-.navbar-textos {
-    background-color: #ffffff;
-    padding-top: 1vh;
-    font-size: 140%;
+.navbar-texto {
+    white-space: nowrap;
 }
+
+.navbar-texto2 {
+    width: 100vw; 
+    height: 5vh; 
+    white-space: nowrap;
+    padding-top: 1%;
+    text-align: right;
+    }
 
 .tela1{
-    width: 100vw; 
+    width: 94vw; 
     height: 100vh; 
-    background-color: #adf2fc;
-    padding: 5%;
+    background-color: #b5d8d4;
+padding: 5%;
     display: inline-flex
 }
 
 .texto{
     padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 4vh;
     width: 40vw;
     text-align: left;
+    font-size: 130%;
+    background-color: #acff97;
+    border-radius: 20px;
 }
 
 .tela1 img{
